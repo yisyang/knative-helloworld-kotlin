@@ -1,3 +1,12 @@
+# SOURCE
+
+Please note the source of this repo is started from:
+`https://github.com/knative/docs`
+`cd knative-docs/docs/serving/samples/hello-world/helloworld-kotlin`
+
+Under the license of `CC BY 4.0`
+
+
 # Hello World - Kotlin
 
 A simple web app written in Kotlin using [Ktor](https://ktor.io/) that you can
