@@ -1,8 +1,8 @@
 # SOURCE
 
 Please note the source of this repo is started from:
-`https://github.com/knative/docs`
-`cd knative-docs/docs/serving/samples/hello-world/helloworld-kotlin`
+
+[https://github.com/knative/docs](https://github.com/knative/docs/tree/main/docs/serving/samples/hello-world/helloworld-kotlin)
 
 Under the license of `CC BY 4.0`
 
