@@ -14,6 +14,8 @@ RUN gradle clean build --no-daemon
 # https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds
 FROM openjdk:8-jre-alpine
 
+EXPOSE 8080
+
 # Copy the jar to the production image from the builder stage.
 COPY --from=builder /home/gradle/build/libs/gradle.jar /helloworld.jar
 
