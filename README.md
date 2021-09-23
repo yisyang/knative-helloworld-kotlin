@@ -14,7 +14,7 @@ You just need to have docker installed.
 Note this project does NOT use Knative.
 
 
-## Building the image
+## Building and Running
 
 From the root project directory,
 
@@ -24,12 +24,19 @@ Once the image is built successfully, you can launch it with
 
 `docker run -d -p 8080:8080 --name hwk hwk`
 
+You should see `hwk` at the top of your
+
+`docker ps`
+
 Visit [localhost:8080](http://localhost:8080) and you should see "Hello World".
+
+
+## Clean Up
 
 For clean up, you can delete the container and image:
 
 ```
 docker stop hwk
 docker rm hwk
-docker rm image hwk
+docker rmi hwk
 ```
